@@ -1,0 +1,13 @@
+{
+  "name": "soccer-predictor",
+  "version": "1.0.0",
+  "description": "Soccer Predictor App",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "cd backend && npm start",
+    "build": "cd backend && npm install",
+    "heroku-postbuild": "cd backend && npm install"
+  }
+}
